@@ -4,7 +4,7 @@ const input = readLine.question("Introduce un número: ");
 
 const num = parseInt(input);
 if (isNaN(num)) {
-    console.log("No has introducido un número");
+    console.error("No has introducido un número");
 }
 function calcularCircunferencia(radio) {
     return 2 * Math.PI * radio;

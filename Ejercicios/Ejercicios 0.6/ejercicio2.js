@@ -7,7 +7,7 @@ const num2 = parseInt(input.split(" ")[1]);
 const num3 = parseInt(input.split(" ")[2]);
 
 if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
-    console.log("No has introducido 3 números válidos");
+    console.error("No has introducido 3 números válidos");
 } else {
 if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
     console.log("Al menos uno de los números es PAR");
